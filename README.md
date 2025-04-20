@@ -33,11 +33,8 @@ This project is a powerful, customizable AI chatbot system built with LangGraph,
 🔧 Setup Instructions
 
 1. Clone the Repository
-bash
-Copy
-Edit
-git clone `https://github.com/Somesh18299/Multipurpose-Agent.git`
-cd Multipurpose-Agent
+`git clone https://github.com/Somesh18299/Multipurpose-Agent.git`
+`cd Multipurpose-Agent`
 
 2. Create & Activate Virtual Environment
 Open bash, `python -m venv venv` and 
@@ -57,37 +54,11 @@ TAVILY_API_KEY=your_tavily_api_key </pre>
 
 1. Start the FastAPI Backend
 `python backend.py`
-Access API docs at: `http://127.0.0.1:9999/docs`
+Access API docs at: http://127.0.0.1:9999/docs
 
 2. Start the Streamlit UI
-streamlit run frontend.py
+`streamlit run frontend.py`
 Interact with the chatbot at: http://localhost:8501
-
-🛠️ API Usage
-POST /chat
-
-Payload Example:
-<pre>
-{
-  "model_name": "llama-3.3-70b-versatile",
-  "model_provider": "Groq",
-  "system_prompt": "You are a helpful assistant.",
-  "messages": ["What's the weather like today?"],
-  "allow_search": true
-}
-</pre>
-
-📂 Project Structure
-
-.
-├── agent.py           # LangGraph agent setup
-├── backend.py         # FastAPI backend
-├── frontend.py        # Streamlit interface
-├── .env               # API keys (ignored by git)
-├── .gitignore
-└── requirements.txt   # All dependencies
-
-📌 Available Models
 
 Provider	Models
 Groq	llama-3.3-70b-versatile, mixtral-8x7b-32768
