@@ -60,9 +60,11 @@ Access API docs at: http://127.0.0.1:9999/docs
 `streamlit run frontend.py`
 Interact with the chatbot at: http://localhost:8501
 
-Provider	Models
-Groq	llama-3.3-70b-versatile, mixtral-8x7b-32768
-OpenAI	gpt-4o-mini
+| Provider | Models                              |
+|----------|-------------------------------------|
+| Groq     | llama-3.3-70b-versatile, mixtral-8x7b-32768 |
+| OpenAI   | gpt-4o-mini                         |
+
 
 🤝 Contributions
 Pull requests and suggestions are welcome!
