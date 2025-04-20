@@ -36,15 +36,15 @@ dotenv – For managing API keys securely
 bash
 Copy
 Edit
-git clone https://github.com/Somesh18299/Multipurpose-Agent.git
+git clone `https://github.com/Somesh18299/Multipurpose-Agent.git`
 cd Multipurpose-Agent
 
 2. Create & Activate Virtual Environment
 bash
 Copy
 Edit
-python -m venv venv
-venv\Scripts\activate  # On Windows
+'python -m venv venv'
+`venv\Scripts\activate`  # On Windows
 
 3. Install Dependencies
 bash
