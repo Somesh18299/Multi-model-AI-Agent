@@ -14,7 +14,8 @@ This project is a powerful, customizable AI chatbot system built with LangGraph,
 
 🚀 FastAPI backend with Swagger UI for testing
 
-🧩 Tech Stack
+🧩 **Tech Stack**
+
     LangGraph – For ReAct-style agent creation
 
     LangChain – For LLM interfaces
@@ -31,7 +32,7 @@ This project is a powerful, customizable AI chatbot system built with LangGraph,
 
     dotenv – For managing API keys securely
 
-🔧 Setup Instructions
+🔧 **Setup Instructions**
 
 1. Clone the Repository
 `git clone https://github.com/Somesh18299/Multipurpose-Agent.git`
@@ -51,7 +52,7 @@ Create a .env file in the root directory:
 OPENAI_API_KEY=your_openai_api_key 
 TAVILY_API_KEY=your_tavily_api_key </pre>
 
-🚀 Running the App
+🚀 **Running the App**
 
 1. Start the FastAPI Backend
 `python backend.py`
@@ -67,5 +68,5 @@ Interact with the chatbot at: http://localhost:8501
 | OpenAI   | gpt-4o-mini                         |
 
 
-🤝 Contributions
+🤝 **Contributions**
 Pull requests and suggestions are welcome!
