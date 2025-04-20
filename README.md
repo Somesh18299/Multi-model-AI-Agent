@@ -58,7 +58,9 @@ Create a .env file in the root directory:
 ini
 Copy
 Edit
-<pre> ```env GROQ_API_KEY=your_groq_api_key OPENAI_API_KEY=your_openai_api_key TAVILY_API_KEY=your_tavily_api_key ``` </pre>
+<pre> env GROQ_API_KEY=your_groq_api_key 
+OPENAI_API_KEY=your_openai_api_key 
+TAVILY_API_KEY=your_tavily_api_key </pre>
 
 🚀 Running the App
 
