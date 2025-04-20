@@ -40,52 +40,34 @@ git clone `https://github.com/Somesh18299/Multipurpose-Agent.git`
 cd Multipurpose-Agent
 
 2. Create & Activate Virtual Environment
-bash
-Copy
-Edit
-`python -m venv venv`
-`venv\Scripts\activate`  # On Windows
+Open bash, `python -m venv venv` and 
+`venv\Scripts\activate`
 
 3. Install Dependencies
-bash
-Copy
-Edit
 `pip install -r requirements.txt`
 
 4. Add Your .env File
 Create a .env file in the root directory:
 
-ini
-Copy
-Edit
-<pre> env GROQ_API_KEY=your_groq_api_key 
+<pre>GROQ_API_KEY=your_groq_api_key 
 OPENAI_API_KEY=your_openai_api_key 
 TAVILY_API_KEY=your_tavily_api_key </pre>
 
 🚀 Running the App
 
 1. Start the FastAPI Backend
-bash
-Copy
-Edit
-python backend.py
-Access API docs at: http://127.0.0.1:9999/docs
+`python backend.py`
+Access API docs at: `http://127.0.0.1:9999/docs`
 
 2. Start the Streamlit UI
-bash
-Copy
-Edit
-streamlit run ui.py
+streamlit run frontend.py
 Interact with the chatbot at: http://localhost:8501
 
 🛠️ API Usage
 POST /chat
 
 Payload Example:
-
-json
-Copy
-Edit
+<pre>
 {
   "model_name": "llama-3.3-70b-versatile",
   "model_provider": "Groq",
@@ -93,11 +75,10 @@ Edit
   "messages": ["What's the weather like today?"],
   "allow_search": true
 }
+</pre>
 
 📂 Project Structure
-bash
-Copy
-Edit
+
 .
 ├── agent.py           # LangGraph agent setup
 ├── backend.py         # FastAPI backend
