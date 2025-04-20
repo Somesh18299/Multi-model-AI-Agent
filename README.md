@@ -14,21 +14,21 @@ This project is a powerful, customizable AI chatbot system built with LangGraph,
 🚀 FastAPI backend with Swagger UI for testing
 
 🧩 Tech Stack
-LangGraph – For ReAct-style agent creation
+    LangGraph – For ReAct-style agent creation
 
-LangChain – For LLM interfaces
+    LangChain – For LLM interfaces
 
-Groq & OpenAI – As LLM providers
+    Groq & OpenAI – As LLM providers
 
-Tavily – For real-time web search results
+    Tavily – For real-time web search results
 
-FastAPI – For backend API
+    FastAPI – For backend API
 
-Streamlit – For frontend UI
+    Streamlit – For frontend UI
 
-Pydantic – For schema validation
+    Pydantic – For schema validation
 
-dotenv – For managing API keys securely
+    dotenv – For managing API keys securely
 
 🔧 Setup Instructions
 
@@ -43,14 +43,14 @@ cd Multipurpose-Agent
 bash
 Copy
 Edit
-'python -m venv venv'
+`python -m venv venv`
 `venv\Scripts\activate`  # On Windows
 
 3. Install Dependencies
 bash
 Copy
 Edit
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 4. Add Your .env File
 Create a .env file in the root directory:
@@ -58,9 +58,7 @@ Create a .env file in the root directory:
 ini
 Copy
 Edit
-GROQ_API_KEY=your_groq_api_key
-OPENAI_API_KEY=your_openai_api_key
-TAVILY_API_KEY=your_tavily_api_key
+<pre> ```env GROQ_API_KEY=your_groq_api_key OPENAI_API_KEY=your_openai_api_key TAVILY_API_KEY=your_tavily_api_key ``` </pre>
 
 🚀 Running the App
 
