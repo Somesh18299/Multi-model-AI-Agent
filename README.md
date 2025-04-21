@@ -1,4 +1,4 @@
-# Multipurpose-Agent
+# Multi-model AI Agent
 
 This project is a powerful, customizable AI chatbot system built with LangGraph, FastAPI, and Streamlit. It allows users to dynamically interact with LLMs (from OpenAI and Groq) with optional web search functionality via Tavily.
 
