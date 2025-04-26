@@ -1,12 +1,13 @@
+from pydantic import BaseModel
+from typing import List
+from fastapi import FastAPI
+from agent import get_response_from_ai_agent
+
 # if you dont use pipenv uncomment the following:
 from dotenv import load_dotenv
 load_dotenv()
 
 #Step1: Setup Pydantic Model (Schema Validation)
-from pydantic import BaseModel
-from typing import List
-
-
 class RequestState(BaseModel):
     model_name: str
     model_provider: str
@@ -16,9 +17,6 @@ class RequestState(BaseModel):
 
 
 #Step2: Setup AI Agent from FrontEnd Request
-from fastapi import FastAPI
-from agent import get_response_from_ai_agent
-
 ALLOWED_MODEL_NAMES=["llama3-70b-8192", "mixtral-8x7b-32768", "llama-3.3-70b-versatile", "gpt-4o-mini"]
 
 app=FastAPI(title="LangGraph AI Agent")
