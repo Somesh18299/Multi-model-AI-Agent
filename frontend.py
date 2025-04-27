@@ -9,7 +9,7 @@ load_dotenv()
 #Step1: Setup UI with streamlit (model provider, model, system prompt, web_search, query)
 st.set_page_config(page_title="LangGraph Agent UI", layout="centered")
 st.title("AI Chatbot Agents")
-st.write("Create and Interact with the AI Agents!")
+st.write("Interact with the AI Agents!")
 
 system_prompt=st.text_area("Define your AI Agent: ", height=70, placeholder="Type your system prompt here...")
 
